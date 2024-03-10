@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+#box {
+    width: 40%;
+    padding: 20px;
+    margin-top: 90px;
+    border-radius: 5px;
+    background-color: #d1d1d1;
+}
+
+#form-todo {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+input {
+    width: 60%;
+    height: 80%;
+    border: none;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    padding-left: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+button {
+    width: 30%;
+    color: #ffffff;
+    height: 80%;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    background-color: green;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+#todos {
+    margin-top: 40px;
+    list-style: none;
+}
+
+.todo {
+    display: flex;
+    padding: 10px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    background-color: aliceblue;
+}
+
+i {
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.todo:hover i {
+    opacity: 1;
+}
