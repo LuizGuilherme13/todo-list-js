@@ -85,3 +85,11 @@ i {
 .todo:hover i {
     opacity: 1;
 }
+
+.done {
+    opacity: 0.4;
+}
+
+.done p {
+    text-decoration: line-through;
+}
